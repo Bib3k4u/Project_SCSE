@@ -24,7 +24,7 @@ namespace SCSE_Prj.Admin
                 try
                 {
                     pnlError.Visible = false;
-                    //getprogramlist();
+                    getprogramlist();
                    // getcollegecode();
                 }
                 catch (Exception ex)
@@ -34,6 +34,34 @@ namespace SCSE_Prj.Admin
 
             }
 
+        }
+        private void getprogramlist()
+        {
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("Get_Program_Master"))
+                {
+                    using (SqlDataAdapter sda = new SqlDataAdapter())
+                    {
+                        cmd.Connection = con;
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        sda.SelectCommand = cmd;
+                        using (DataTable dt = new DataTable())
+                        {
+                            sda.Fill(dt);
+                            grdprogramlist.DataSource = dt;
+                            grdprogramlist.DataBind();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                con.Close();
+            }
         }
         private void ShowMsg(string msg, string css)
         {

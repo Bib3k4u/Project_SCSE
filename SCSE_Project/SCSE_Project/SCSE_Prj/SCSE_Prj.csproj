@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin\Program_Master.aspx" />
+    <Content Include="Admin\Student_List_Upload.aspx" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\style-responsive.css" />
     <Content Include="assets\css\style.css" />
@@ -162,6 +163,13 @@
     </Compile>
     <Compile Include="Admin\Program_Master.aspx.designer.cs">
       <DependentUpon>Program_Master.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Student_List_Upload.aspx.cs">
+      <DependentUpon>Student_List_Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Student_List_Upload.aspx.designer.cs">
+      <DependentUpon>Student_List_Upload.aspx</DependentUpon>
     </Compile>
     <Compile Include="Faculty\Faculty_Master.Master.cs">
       <DependentUpon>Faculty_Master.Master</DependentUpon>
