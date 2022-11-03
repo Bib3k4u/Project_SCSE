@@ -1,0 +1,10 @@
+C:\Users\allua\OneDrive\Documents\SCSE_Project\SCSE_Prj\SCSE_Prj\bin\SCSE_Prj.dll
+C:\Users\allua\OneDrive\Documents\SCSE_Project\SCSE_Prj\SCSE_Prj\bin\SCSE_Prj.pdb
+C:\Users\allua\OneDrive\Documents\SCSE_Project\SCSE_Prj\SCSE_Prj\obj\Debug\SCSE_Prj.csprojResolveAssemblyReference.cache
+C:\Users\allua\OneDrive\Documents\SCSE_Project\SCSE_Prj\SCSE_Prj\obj\Debug\SCSE_Prj.dll
+C:\Users\allua\OneDrive\Documents\SCSE_Project\SCSE_Prj\SCSE_Prj\obj\Debug\SCSE_Prj.pdb
+C:\Project\SCSE_Project\SCSE_Project\SCSE_Prj\obj\Debug\SCSE_Prj.csprojResolveAssemblyReference.cache
+C:\Project\SCSE_Project\SCSE_Project\SCSE_Prj\obj\Debug\SCSE_Prj.dll
+C:\Project\SCSE_Project\SCSE_Project\SCSE_Prj\obj\Debug\SCSE_Prj.pdb
+C:\Project\SCSE_Project\SCSE_Project\SCSE_Prj\bin\SCSE_Prj.dll
+C:\Project\SCSE_Project\SCSE_Project\SCSE_Prj\bin\SCSE_Prj.pdb

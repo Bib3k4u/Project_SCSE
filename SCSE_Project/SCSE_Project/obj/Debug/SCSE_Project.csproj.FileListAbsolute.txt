@@ -1,0 +1,5 @@
+C:\Project\SCSE_Project\SCSE_Project\bin\SCSE_Project.dll
+C:\Project\SCSE_Project\SCSE_Project\bin\SCSE_Project.pdb
+C:\Project\SCSE_Project\SCSE_Project\obj\Debug\SCSE_Project.csprojResolveAssemblyReference.cache
+C:\Project\SCSE_Project\SCSE_Project\obj\Debug\SCSE_Project.dll
+C:\Project\SCSE_Project\SCSE_Project\obj\Debug\SCSE_Project.pdb

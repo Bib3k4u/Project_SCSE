@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin_Master.master.cs" Inherits="SCSE_Prj.Admin.Admin_Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title>Online Examination</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Dashboard"/>
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina"/>
+
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet"/>
+    <link href="../assets/css/style-responsive.css" rel="stylesheet"/>
+
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+  <form id="form1" runat="server">
+        <section id="container" >
+          <!-- **********************************************************************************************************************************************************
+          TOP BAR CONTENT & NOTIFICATIONS
+          *********************************************************************************************************************************************************** -->
+          <!--header start-->
+          <header class="header black-bg">
+                  <div class="sidebar-toggle-box">
+                      <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+                  </div>
+                <!--logo start-->
+                <a href="dashboard.aspx" class="logo"><b>Project Management Hub</b></a>
+                <!--logo end-->
+                
+                <div class="top-menu">
+            	    <ul class="nav pull-right top-menu">
+                        <li>
+                            <asp:Button ID="btnlogout" runat="server" class="logout" Text="Logout"/></li>
+            	    </ul>
+                </div>
+            </header>
+          <!--header end-->
+      
+          <!-- **********************************************************************************************************************************************************
+          MAIN SIDEBAR MENU
+          *********************************************************************************************************************************************************** -->
+          <!--sidebar start-->
+          <aside>
+              <div id="sidebar"  class="nav-collapse ">
+                  <!-- sidebar menu start-->
+                  <ul class="sidebar-menu" id="nav-accordion">
+              
+              	      <p class="centered"><a href="profile.html"><img src="../assets/img/gulogo.jpeg" class="img-circle" width="60"></a></p>
+              	      <h5 class="centered"><asp:Label ID="lblusercode" runat="server" Text="Label"></asp:Label></h5>
+              	  	
+                      <li>
+                          <a href="dashboard.aspx">
+                              <i class="fa fa-dashboard"></i>
+                              <span>Dashboard</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="TMUCollegeCeation.aspx">
+                              <i class="fa fa-dashboard"></i>
+                              <span>College Creation</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="ProgramMaster.aspx">
+                              <i class="fa fa-dashboard"></i>
+                              <span>Program Entry</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="FacultyEntry.aspx">
+                              <i class="fa fa-dashboard"></i>
+                              <span>Faculty Entry</span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="UserLogin.aspx">
+                              <i class="fa fa-dashboard"></i>
+                              <span>User Login Creation</span>
+                          </a>
+                      </li>
+                  </ul>
+                  <!-- sidebar menu end-->
+              </div>
+          </aside>
+          <!--sidebar end-->
+      
+          <!-- **********************************************************************************************************************************************************
+          MAIN CONTENT
+          *********************************************************************************************************************************************************** -->
+          <!--main content start-->
+          
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              
+                </asp:ContentPlaceHolder>
+          
+
+          <!--main content end-->
+          <!--footer start-->
+          <footer style=" position:fixed;padding:10px 0; width:100%;background: #ffd777;color: #ca1919; bottom:0;left:0;" >
+              <div class="text-center" style="font-size:medium; font-weight:bold;color:#a91919">
+                  2022-Current @Nxt-Inn
+                  
+              </div>
+          </footer>
+          <!--footer end-->
+      </section>
+    </form>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="../assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script class="include" type="text/javascript" src="../assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="../assets/js/jquery.scrollTo.min.js"></script>
+    <script src="../assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="../assets/js/common-scripts.js"></script>
+
+    <script>
+        //custom select box
+
+        $(function () {
+            $('select.styled').customSelect();
+        });
+
+  </script>
+</body>
+</html>
