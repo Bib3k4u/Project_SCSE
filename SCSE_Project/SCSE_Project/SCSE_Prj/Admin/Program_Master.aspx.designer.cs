@@ -202,6 +202,24 @@ namespace SCSE_Prj.Admin {
         protected global::System.Web.UI.WebControls.GridView grdprogramlist;
         
         /// <summary>
+        /// hidden1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hidden1;
+        
+        /// <summary>
+        /// hidden2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hidden2;
+        
+        /// <summary>
         /// pnlError control.
         /// </summary>
         /// <remarks>
